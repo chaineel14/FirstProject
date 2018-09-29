@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23914" started-at="2018-09-23T03:09:41Z" finished-at="2018-09-23T03:10:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23914" started-at="2018-09-23T03:09:41Z" finished-at="2018-09-23T03:10:05Z">
+      <class name="test.TwitterLogin">
+        <test-method status="PASS" signature="callBrowser()[pri:0, instance:test.TwitterLogin@57baeedf]" name="callBrowser" is-config="true" duration-ms="6182" started-at="2018-09-23T03:09:41Z" finished-at="2018-09-23T03:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callBrowser -->
+        <test-method status="PASS" signature="navigateToApplication(java.lang.reflect.Method)[pri:0, instance:test.TwitterLogin@57baeedf]" name="navigateToApplication" is-config="true" duration-ms="2597" started-at="2018-09-23T03:09:48Z" finished-at="2018-09-23T03:09:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TwitterLogin.callingTestcases() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="callingTestcases()[pri:0, instance:test.TwitterLogin@57baeedf]" name="callingTestcases" duration-ms="7338" started-at="2018-09-23T03:09:50Z" finished-at="2018-09-23T03:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callingTestcases -->
+        <test-method status="PASS" signature="reportConfiguration()[pri:0, instance:test.TwitterLogin@57baeedf]" name="reportConfiguration" is-config="true" duration-ms="7766" started-at="2018-09-23T03:09:58Z" finished-at="2018-09-23T03:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfiguration -->
+      </class> <!-- test.TwitterLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
